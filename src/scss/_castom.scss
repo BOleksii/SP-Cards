@@ -1,0 +1,38 @@
+
+.btn-success {
+	// background-color: #1d8bcc;
+	--bs-btn-bg: #44c7bb;
+	--bs-btn-border-color: #44c7bb;
+	--bs-btn-hover-bg: #26938a;
+    --bs-btn-hover-border-color: #26938a;
+	--bs-btn-font-family:  "Montserrat", sans-serif;
+}
+
+.row {
+	justify-content: center;
+	--bs-gutter-y: 2rem;
+	margin-top: calc( 1 * var(--bs-gutter-y));
+}
+
+.card-header {
+	 background-color: #44c7bb;
+	// --bs-teal: #20c997;
+}
+
+.card-title {
+	color: #932626;
+}
+
+#dashboard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	font-size: 20px;
+	color: #932626;
+}
+
+
+// .form-select:valid {
+
+// }
